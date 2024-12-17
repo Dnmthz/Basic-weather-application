@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const apiKey = 'def2d2a2325020ddcef3b40025e6570a';
-    const city = 'Greer, South Carolina';
+    const apiKey = 'Openweathermap api';
+    const city = 'Input city here, ';
     const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=imperial`;
 
     fetch(apiUrl)
